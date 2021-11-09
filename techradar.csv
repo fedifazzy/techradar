@@ -1,0 +1,112 @@
+name,quadrant,ring,isNew,description
+Microservices,Methodologies,Adopt,FALSE,"We love microservices - architecture approach, building highly alligned & loosly coupled services."
+Inner Source,Methodologies,Adopt,FALSE,We treat internal teams as code contributors; avoid release block during cross team development.
+Agile,Methodologies,Adopt,FALSE,Flexible and adaptive software development aproach. We used it through all of our Product Teams and development cycle.
+SOLID,Methodologies,Adopt,FALSE,Software development design principles
+Event-Driven Architecture,Methodologies,Trial,FALSE,"We use events to connect different parts of platform independently, thus we achieve loosly coupled system."
+KISS,Methodologies,Trial,FALSE,Design principle we use during any decision making.
+Fail Fast,Methodologies,Adopt,FALSE,We experiment a lot. So we are ready for fails but well prepared fails.
+GIST,Methodologies,Trial,FALSE,"Goals, Ideas, Steps, Tasks - product development and hypotheses verification planning system"
+Monolith,Methodologies,Hold,FALSE,Monoliths are in the past :)
+CI/CD,Methodologies,Adopt,FALSE,We use CI/CD to achieve stable incremental changes.
+Code Generation,Methodologies,Trial,FALSE,We generate code instead of coupling services via single shared components; avoid external dependencies.
+Empowered Product Teams,Methodologies,Assess,FALSE,"We are customer oriented, think of outcome over the output, empowered to solve hard problems, inspired with ideas and techniques to discover solutions that work."
+Data-Driven Product Management,Methodologies,Trial,FALSE,We build product increments driven by experiments and data analysis.
+Domain-Driven Design,Methodologies,Trial,FALSE,We use this as Monoliths decomposition approach and layered applications architecture approach.
+Evolutionary Architecture,Methodologies,Trial,FALSE,We us flexible architecture approach which evolves over the time that prevents main system characteristics degradation over the time.
+Git flow & Jira flow,Methodologies,Adopt,FALSE,We use it as main flow for software lifecycle.
+Clean Architecture,Methodologies,Trial,FALSE,"We use this architecture approach to implement core functionality, user interface, infrastructure and organizing the project so that it's easy to understand and easy to change as the project grows."
+SSR,Methodologies,Adopt,FALSE,We generate client apps on server to improve SEO and performance.
+Specification first,Methodologies,Trial,FALSE,Defining a service API separately from its code using the standard specification
+BEM block,Methodologies,Trial,FALSE,Styles and templates structrure which helps us to make less mess in our code
+Design system,Methodologies,Trial,FALSE,"We use figma and code generation to sync icons and colors between iOS, Android and designers"
+UI tests,Methodologies,Trial,FALSE,We're starting to automate our testing scenarios
+VIP,Methodologies,Adopt,FALSE,iOS presentation layer architecture
+MVVM,Methodologies,Adopt,FALSE,Android presentation layer architecture
+Pandas,AI & Tools & Frameworks,Adopt,FALSE,Analytical scripting
+Numpy,AI & Tools & Frameworks,Adopt,FALSE,Analytical scripting
+Scikit-learn,AI & Tools & Frameworks,Adopt,FALSE,Analytical scripting
+LightGBM,AI & Tools & Frameworks,Adopt,FALSE,Courier planning model
+CatBoost,AI & Tools & Frameworks,Assess,FALSE,Assessing as an alternative to the LightGBM
+XGBoost,AI & Tools & Frameworks,Assess,FALSE,Assessing as an alternative to the LightGBM
+Tensorflow / Keras,AI & Tools & Frameworks,Trial,FALSE,NLP feedbacks semantic analysis
+PyTorch,AI & Tools & Frameworks,Assess,FALSE,Deep learning framework
+Symphony 3.x,AI & Tools & Frameworks,Adopt,FALSE,Core of most PHP microservices
+Go Swagger,AI & Tools & Frameworks,Adopt,FALSE,Using for all golang projects
+H3,AI & Tools & Frameworks,Adopt,FALSE,Realtime supply/demand balancing https://github.com/uber/h3-go
+RxJS,AI & Tools & Frameworks,Adopt,FALSE,Using for web solutions
+OSM,AI & Tools & Frameworks,Adopt,FALSE,Algorithmic zones creation
+Jupyter Notebook,AI & Tools & Frameworks,Adopt,FALSE,Research tasks
+Angular,AI & Tools & Frameworks,Adopt,FALSE,All other (not site) web solutions
+VueJS,AI & Tools & Frameworks,Adopt,FALSE,Site www.delivery-club.ru
+Metabase,AI & Tools & Frameworks,Adopt,FALSE,BI reports and analytics
+Docker,AI & Tools & Frameworks,Adopt,FALSE,Containerization of our components
+RPM,AI & Tools & Frameworks,Adopt,FALSE,Using for delivery components
+Kubernetes,AI & Tools & Frameworks,Trial,FALSE,Orchetrate system
+Jenkins,AI & Tools & Frameworks,Adopt,FALSE,CI
+Sentry,AI & Tools & Frameworks,Assess,FALSE,Application moritiring and alerting platform
+HAProxy,AI & Tools & Frameworks,Adopt,FALSE,Balancer
+Nginx,AI & Tools & Frameworks,Adopt,FALSE,Proxy
+Hashicorp Vault,AI & Tools & Frameworks,Trial,FALSE,Sensitive data storage for k8s services
+Codeception,AI & Tools & Frameworks,Adopt,FALSE,Base for functional and unit tests
+Appium,AI & Tools & Frameworks,Adopt,FALSE,Delined in favor AND:kotlin+espresso
+Selenium,AI & Tools & Frameworks,Adopt,FALSE,Declined in favor of cypress
+phpunit,AI & Tools & Frameworks,Adopt,FALSE,Base for unit tests
+Istio,AI & Tools & Frameworks,Hold,FALSE,Microservice management
+Jaeger,AI & Tools & Frameworks,Assess,FALSE,For end-to-end tracing
+Webpack,AI & Tools & Frameworks,Adopt,FALSE,Using for angular projects
+npm,AI & Tools & Frameworks,Adopt,FALSE,Using for all web projects
+NgRx,AI & Tools & Frameworks,Adopt,FALSE,Using for angular projects
+jQuery,AI & Tools & Frameworks,Hold,FALSE,Legacy in old system web components</p
+Cypress,AI & Tools & Frameworks,Trial,FALSE,For testing web solutions
+SCSS,AI & Tools & Frameworks,Adopt,FALSE,For all web projects
+Ansible,AI & Tools & Frameworks,Adopt,FALSE,Control and automated deployment of configurations
+Artifactory,AI & Tools & Frameworks,Adopt,FALSE,Repository manager for artifacts
+Gatling,AI & Tools & Frameworks,Adopt,FALSE,Load testing tool for web applications
+Postman,AI & Tools & Frameworks,Adopt,FALSE,API Query Testing
+Wiremock,AI & Tools & Frameworks,Adopt,FALSE,Mock service for dependency isolation while running tests
+GoMock,AI & Tools & Frameworks,Adopt,FALSE,Using on go-services for testing
+Burrow,AI & Tools & Frameworks,Adopt,FALSE,Kafka consumer lag monitoring
+OpenStack,AI & Tools & Frameworks,Adopt,FALSE,Stage environment infrastructure
+Tableau,AI & Tools & Frameworks,Assess,FALSE,BI reports and analytics
+Node.js 12.14.1,AI & Tools & Frameworks,Adopt,FALSE,Using for all web projects + ssr runtime
+CocoaPods,AI & Tools & Frameworks,Adopt,FALSE,Dependency Manager
+Sourcery,AI & Tools & Frameworks,Adopt,FALSE,Mocks generation
+Swiftlint,AI & Tools & Frameworks,Adopt,FALSE,Linter
+Swinject,AI & Tools & Frameworks,Adopt,FALSE,Dependency Injection
+SwiftUI,AI & Tools & Frameworks,Trial,TRUE,UI
+UIKit,AI & Tools & Frameworks,Adopt,FALSE,UI
+Quick & Nimble,AI & Tools & Frameworks,Adopt,FALSE,Unit tests
+Xcode templates,AI & Tools & Frameworks,Adopt,FALSE,Code generation
+Kotlin Coroutines,AI & Tools & Frameworks,Adopt,FALSE,Async code
+Ktlint,AI & Tools & Frameworks,Adopt,FALSE,Linter
+"Mocck, Mockito",AI & Tools & Frameworks,Adopt,FALSE,Android tests mocking
+Gradle,AI & Tools & Frameworks,Adopt,FALSE,Build system
+Dagger,AI & Tools & Frameworks,Adopt,FALSE,Dependency Injection
+Retrofit,AI & Tools & Frameworks,Adopt,FALSE,Network
+Cicerone,AI & Tools & Frameworks,Trial,FALSE,Navigation
+PostgreSQL,Data Management,Adopt,FALSE,Main RDBMS
+MySQL,Data Management,Hold,FALSE,Storage for Monolith
+RabbitMQ,Data Management,Adopt,FALSE,Queue
+Kafka,Data Management,Adopt,FALSE,Events and data streaming
+Redis,Data Management,Adopt,FALSE,Starage for most of cached data
+Memcached,Data Management,Adopt,FALSE,In-menory caches
+ClickHouse,Data Management,Adopt,FALSE,Part of DataWareHouse
+Atlassian,Data Management,Adopt,FALSE,"JIRA, Confluence, Bitbucket"
+Prometheus,Data Management,Adopt,FALSE,Metrics TS database
+Grafana,Data Management,Adopt,FALSE,Metrics visualization
+NewRelic,Data Management,Adopt,FALSE,Services status analysis and optimization based on metrics
+Graphit,Data Management,Hold,FALSE,Some analyse and metrics
+Firebase,Data Management,Adopt,FALSE,Analytics and A/B
+Graylog,Data Management,Adopt,FALSE,Logs management system
+Elasticsearch,Data Management,Trial,FALSE,Using for search
+Swift 5.0,Languages,Adopt,FALSE,Some part of (new) iOS app
+Kotlin 1.3.70,Languages,Adopt,FALSE,Some part of (new) Android app
+Go 1.1x,Languages,Adopt,FALSE,All new and highload services
+PHP 7.x,Languages,Adopt,FALSE,Backend services
+Javascript ES5,Languages,Hold,FALSE,Legacy in old system web components
+TypeScript 2.9.2,Languages,Adopt,FALSE,Using for all web projects
+Objectve-C 2.0,Languages,Hold,FALSE,Some part of (legacy) iOS app
+Java 1.8,Languages,Hold,FALSE,Some part of (legacy) Android app
+Scala,Languages,Hold,FALSE,Declined in favor of golang
+Python 3,Languages,Adopt,FALSE,Analytical scripts and models
